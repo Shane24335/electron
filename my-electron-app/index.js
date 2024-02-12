@@ -1,6 +1,8 @@
-const {app, BrowserWindow, Tray, Menu, ipcMain, nativeTheme, nativeImage} = require('electron')
+const {app, BrowserWindow, Tray, Menu, ipcMain, nativeTheme, nativeImage, contextBridge} = require('electron')
 
 const path = require('node:path')
+
+"use strict"
 
 let tray
 
@@ -9,6 +11,10 @@ const createWindow = () => {
         width: 800,
         height: 600,
         webPreferences: {
+            webviewTag: true,
+            contextIsolation: true,
+            nodeIntegration: true,
+            nodeIntegrationInWorker: true,
             preload: path.join(__dirname, 'preload.js')
         }
     })
