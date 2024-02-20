@@ -10,7 +10,7 @@
 > ## Packaging
 > - https://www.electronforge.io/ - This is the link to electron-forge, a one of the 3 main packaging libraries for electron
 >
-> - *==First==* run: npm init electron-app@latest *my-app* (replace *my-app* with the name of your app)
+> - ==*First*== run: npm init electron-app@latest *my-app* (replace *my-app* with the name of your app)
 >
 > - You can also run: npm init electron-app@latest my-app -- --template=webpack (The four webpacks you can use are webpack, webpack-typscript, vite, and vite-typescript)
 >
