@@ -10,14 +10,14 @@
 > ## Packaging
 > - https://www.electronforge.io/ - This is the link to electron-forge, a one of the 3 main packaging libraries for electron
 >
-> - *First* run: npm init electron-app@latest *my-app* (replace *my-app* with the name of your app)
+> - *=First=* run: npm init electron-app@latest *my-app* (replace *my-app* with the name of your app)
 >
 > - You can also run: npm init electron-app@latest my-app -- --template=webpack (The four webpacks you can use are webpack, webpack-typscript, vite, and vite-typescript)
 >
-> - *Second* run: cd *my-app* 
+> - *=Second=* run: cd *my-app* 
 >
-> - *Third* run: npm start (an external webpage with )
+> - *=Third=* run: npm start (an external webpage with )
 >
-> - *Fourth* run: npm run make (creates a distributable package of your app)
+> - *=Fourth=* run: npm run make (creates a distributable package of your app)
 >
-> - *Fifth* run: npm run publish (publishes your app to electron forge)
+> - *=Fifth=* run: npm run publish (publishes your app to electron forge)
